@@ -29,8 +29,23 @@ This document catalogs the impact of various optimization initiatives, tracking 
 - Per week: 135 seconds × 30 clients = **4,050 seconds** (67.5 minutes)
 - Per year: 4,050 seconds × 52 weeks = **210,600 seconds** = **3,510 minutes** = **58.5 hours**
 
-**Annual Impact:**
-- Time saved per coach: **58.5 hours/year**
-- If multiplied by hourly rate, this represents significant cost savings in coach time allocation
+**Cost Analysis (Average Coach Rate: $55/hour):**
+
+**Before Optimization:**
+- Time per client: 2.5 minutes = 0.04167 hours
+- Cost per client: 0.04167 hours × $55 = **$2.29**
+- Cost per week: $2.29 × 30 clients = **$68.70**
+- Cost per year: $68.70 × 52 weeks = **$3,572.40**
+
+**After Optimization:**
+- Time per client: 15 seconds = 0.00417 hours
+- Cost per client: 0.00417 hours × $55 = **$0.23**
+- Cost per week: $0.23 × 30 clients = **$6.90**
+- Cost per year: $6.90 × 52 weeks = **$358.80**
+
+**Annual Cost Savings per Coach:**
+- Time saved: 58.5 hours
+- Cost savings: 58.5 hours × $55/hour = **$3,217.50/year**
+- Alternative calculation: $3,572.40 (before) - $358.80 (after) = **$3,213.60/year**
 
 ---
