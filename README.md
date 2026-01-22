@@ -182,8 +182,11 @@ flowchart TD
 - **Source Columns:**
   - `sale_without_change`: Calculated column (see above)
   - `max_class_type_capacity`: Passed from daily view (originally from `system_config.max_bligh/bridge/collin`)
+- **Note:** This is the only formula that uses the `max_class_type_capacity` column
 
 ---
+
+> **Note:** Capacity calculations currently do not account for class 'staggering' (overlapping class times where members may attend multiple sessions). This needs to be addressed in future iterations to provide more accurate capacity expansion recommendations.
 
 ## 🔧 Technical Documentation
 
