@@ -119,3 +119,9 @@ The system now provides:
 - Structured reason tracking
 - Real-time trend identification
 - Faster response times to address issues
+
+## Retool Integration
+
+The churn analysis system has been integrated into Retool with a custom transformer query that applies the same filtering logic as the renewal tracker, allowing seamless filtering by year, month, sprint, journey stage, status, assignees, gym, member name, coach, and churn classification.
+
+**Churn analysis is now ready inclusive of filtering within the renewal tracker under the tabbed view.**
