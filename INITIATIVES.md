@@ -253,6 +253,20 @@ So in one run: one new sale → one row in the journey sheet, all DB records in 
 | **Admin time per new sale** | **~20 minutes** | **~10 minutes** (half) | **~5 minutes** |
 | **Time saved per sale** | — | **~10 minutes** | **~15 minutes** |
 
+**Sales cost saved (admin time):**
+
+| Assumption | Value |
+|---|---|
+| Sales team cost | **$65/hour** |
+| New sales per month | **20** |
+
+| | Conservative (~10 min saved/sale) | Best estimate (~15 min saved/sale) |
+|---|---|---|
+| **Time saved per month** | 20 × 10 min = **200 min** (3.33 hours) | 20 × 15 min = **300 min** (5 hours) |
+| **Time saved per year** | 200 × 12 = **2,400 min** = **40 hours** | 300 × 12 = **3,600 min** = **60 hours** |
+| **Cost saved per month** | 3.33 × $65 = **~$217** | 5 × $65 = **~$325** |
+| **Cost saved per year** | 40 × $65 = **$2,600** | 60 × $65 = **$3,900** |
+
 - **Conservative:** Admin time cut by at least half (20 min → ~10 min).
 - **Best estimate:** Down to ~5 minutes per new sale (20 min → 5 min).
 
