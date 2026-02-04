@@ -112,3 +112,35 @@ Faster visibility into session attendance allows managers to spot at-risk client
 
 ---
 
+### Coach Weekly Snapshots (Session Expectations vs Actuals)
+
+**What it is:** A weekly view (e.g. `view_session_balance_adjusted_25` in Supabase) that shows, per coach, how many sessions/hours were **expected** (from role allocation and roster) versus how many were **actually** delivered—so expectations and actuals are in one place.
+
+**How it works (simple):** Expected sessions per coach per week come from the roster and role allocations (e.g. FTE/PTE, leave, holidays). Actual sessions come from logged delivery (e.g. `coach_session_actual`). The view compares them and shows a **balance** (actual − expected) so you can see at a glance who's ahead, on track, or behind.
+
+**Simple diagram:**
+
+```
+┌─────────────────────────────────────────────────────────────────┐
+│  COACH WEEKLY SNAPSHOT (expectations vs actuals)                 │
+├─────────────────────────────────────────────────────────────────┤
+│                                                                  │
+│   EXPECTED (per coach, per week)     ACTUAL (per coach, per week)│
+│   • From roster & role allocation   • From logged sessions        │
+│   • Adjusted for leave/holidays    • By session type/duration    │
+│         │                                    │                    │
+│         └──────────────┬─────────────────────┘                    │
+│                        ▼                                          │
+│              BALANCE = actual − expected                          │
+│              (ahead / on track / behind)                          │
+│                                                                  │
+└─────────────────────────────────────────────────────────────────┘
+```
+
+**Benefit of tracking this (before vs after):**
+
+- **Before:** Tracking was **very manual and ambiguous**—similar to relying on a loose HR or spreadsheet approach. Hours and sessions were not clearly defined or visible, which led to **decreased productivity**, **resentment**, and **ambiguity** about how numbers were calculated and who was doing what.
+- **After:** Expectations and actuals are **transparent and visible** in one place. Each role has a **clear allocation of time**, so the question is **"Is this assigned to me?"** rather than "Am I being judged on unclear numbers?" Work feels **more fair and accounted for**, and there is **less resentment** across the team because everyone can see how expectations and delivery are defined and compared.
+
+---
+
