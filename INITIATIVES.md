@@ -2,6 +2,20 @@
 
 This document catalogs the impact of various optimization initiatives, tracking time savings and cost reductions across different processes.
 
+**Summary table (add rows as new initiatives are documented):**
+
+| Initiative | Before cost (yearly) | After cost (yearly) | Savings |
+|---|---|---|---|
+| InBody Weight and Body Fat % Graphs * | $3,572 | $359 | $3,213 |
+| Session Attendance Tracking (operational) * | $4,290 | ~$0 | $4,290 |
+| Coach Weekly Snapshots | — | — | — |
+| Schedule Preferences | — | — | — |
+| New Sale Form | $5,200 | $2,600 | $2,600 |
+| **Total** | | | **$9,103** † |
+
+*Per coach/manager; multiply by number of coaches/managers for org total.*  
+† *Total sums the Savings column; InBody and Session Attendance are per coach—scale those rows by headcount for full org savings.*
+
 ---
 
 ## Coach Workbook Optimizations
