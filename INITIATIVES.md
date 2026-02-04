@@ -49,3 +49,66 @@ This document catalogs the impact of various optimization initiatives, tracking 
 - Alternative calculation: $3,572.40 (before) - $358.80 (after) = **$3,213.60/year**
 
 ---
+
+### Session Attendance Tracking (e.g. Heat Map)
+
+**Description:** Session attendance tracking—such as a heat map view—surfaces attendance data quickly in the 360 dashboard. This reduces time spent on page load and navigation, and cuts down on gym manager/coach questions about how to access this data. It also supports retention by giving managers fast visibility into who is (or isn’t) attending, so they can act before at-risk clients churn.
+
+**Benefit 1: Time and Cost Savings (Page Load, Navigation, and "How do I access this?" Questions)**
+
+**Previous Process:**
+- Time per client: **3 minutes** (page load, navigation, and handling manager questions on how to access attendance data)
+- Steps: Multiple systems, slow loads, repeated "how do I find this?" support
+
+**New Process:**
+- Direct visibility via dashboard (e.g. heat map); minimal navigation and fewer support questions
+
+**Time Savings Calculation:**
+- Time saved per client: **3 minutes** (180 seconds)
+- Clients per coach/manager: **30**
+- Frequency: **Once per week**
+- Weeks per year: **52**
+
+**Total Time Saved per Coach/Manager per Year:**
+- Per week: 180 seconds × 30 clients = **5,400 seconds** (90 minutes)
+- Per year: 5,400 seconds × 52 weeks = **280,800 seconds** = **4,680 minutes** = **78 hours**
+
+**Cost Analysis (Average Coach/Manager Rate: $55/hour):**
+
+**Before Optimization:**
+- Time per client: 3 minutes = 0.05 hours
+- Cost per client: 0.05 hours × $55 = **$2.75**
+- Cost per week: $2.75 × 30 clients = **$82.50**
+- Cost per year: $82.50 × 52 weeks = **$4,290.00**
+
+**After Optimization:**
+- Time per client: negligible (direct access)
+- Cost per year (residual): **~$0** (assumed near-zero for this workflow)
+
+**Annual Cost Savings per Coach/Manager:**
+- Time saved: **78 hours/year**
+- Cost savings: 78 hours × $55/hour = **$4,290/year**
+
+---
+
+**Benefit 2: Retention Improvement from Fast Data Visibility**
+
+Faster visibility into session attendance allows managers to spot at-risk clients (e.g. dropping attendance) and intervene earlier, supporting retention.
+
+**Base Assumptions:**
+- Average membership: **$10,000 per 6 months** = **$20,000 per year** per client
+- Current churn rate: **3%**
+- Conservative estimate: **1 client saved from churning per sprint** (every 3 months) due to earlier intervention driven by session attendance visibility
+
+**Retention Impact Calculation:**
+- Sprints per year: 12 months ÷ 3 months = **4 sprints**
+- Clients retained per year (attributed to this initiative): **1 per sprint** = **4 clients**
+- Revenue retained per year: 4 clients × $20,000/year = **$80,000/year**
+
+**Summary (Session Attendance Tracking):**
+- **Operational savings:** **$4,290/year** per coach/manager (78 hours at $55/hr)
+- **Retention benefit (conservative):** **$80,000/year** in retained revenue (4 clients × $20,000)
+- **Combined annual benefit:** **$84,290/year** (before scaling across multiple coaches/managers)
+
+---
+
