@@ -1,4 +1,4 @@
-# Churn Analysis System - Before & After
+# Churn Logging - Before & After
 
 ## Overview
 
